@@ -1,0 +1,13 @@
+.ui-library-selector {
+    border: 1px solid gray;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 10px;
+
+    >.ui-library-selector-item{
+        padding: 5px;
+        border-bottom: inherit;
+        border-radius: inherit;
+        cursor: pointer;
+    }
+}

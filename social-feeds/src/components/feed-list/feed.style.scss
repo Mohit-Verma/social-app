@@ -1,0 +1,104 @@
+.component-feed-list-wrapper {
+
+    .component-feed {
+        height: auto;
+        padding: 10px 50px;
+    
+        .component-feed-title {
+            padding: 10px;
+            font-size: small;
+
+            >h3 {
+                margin: 0px;
+            }
+        }
+    
+        .component-feed-image {
+            
+            >img {
+                width: 100%;
+                height: 500px;
+                object-fit: cover;
+            }
+        }
+    
+        .component-feed-description {
+            padding: 10px;
+            font-weight: 400;
+        }
+    
+        .component-feed-like-comment {
+            display: flex;
+    
+            .component-feed-like {
+                padding: 5px;
+                transform: scaleX(-1);
+                cursor: pointer;
+            }
+    
+            .component-feed-comment {
+                display: flex;
+                padding: 5px;
+                cursor: pointer;
+            }
+    
+            .component-feed-raction-selector{
+                position: absolute;
+                background: white;
+                border-radius: 10px;
+    
+                label {
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .component-comment-list {
+            padding: 5px;
+        }
+    
+        .component-comment-submit{
+            display: flex;
+            padding: 5px;
+    
+            .component-comment-input{
+                width: 80%;
+                padding: 5px;
+            }
+    
+            .component-submit {
+                width: 20%;
+                padding: 5px;
+            }
+        }
+        
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .component-feed-list-wrapper {
+
+        .component-feed {
+
+            .component-feed-title {
+                padding: 10px;
+                font-size: x-small;
+    
+                >h3 {
+                    margin: 0px;
+                }
+            }
+        
+            .component-feed-image {
+                >img {
+                    height: 250px;
+                }
+            }
+
+            .component-feed-description {
+                font-size: small;
+            }
+        }
+    }
+}
