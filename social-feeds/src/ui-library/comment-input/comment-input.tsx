@@ -22,7 +22,6 @@ export const CommentInput: React.FunctionComponent<TCommentInputProps> = (props:
                 clearTimeout(timer);
             }
             timer = setTimeout(() => {
-                console.log('updating state: ', {c: value, comment});
                 updateComment(() => {
                     onInputChange(value);
                     return value;
