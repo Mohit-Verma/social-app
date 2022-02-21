@@ -1,0 +1,14 @@
+{
+  "name": "social-media-application",
+  "packageManager": "yarn@3.1.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "server:start": "yarn workspace social-server start",
+    "application:start": "yarn workspace social-feeds start"
+  },
+  "workspaces": [
+    "social-server",
+    "social-feeds"
+  ]
+}
