@@ -1,0 +1,38 @@
+.ui-library-box {
+
+    &.color-black {
+        background-color: #000000;
+    }
+
+    &.color-red {
+        background-color: #ff0000;
+    }
+
+    &.color-green {
+        background-color: #00ff00;
+    }
+
+    &.color-blue {
+        background-color: #0000ff;
+    }
+
+    &.color-transparent {
+        background-color: transparent;
+    }
+
+    &.color-white {
+        background-color: #ffffff;
+    }
+
+    &.corner-rounded {
+        border-radius: 10px;
+    }
+
+    &.shadow-soft {
+        box-shadow: 0 0 5px #000000
+    }
+
+    &.shadow-card {
+        box-shadow: 0 0 15px #000000
+    }
+}

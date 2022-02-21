@@ -1,0 +1,55 @@
+.ui-library-button {
+    // height: 100%;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #e7e7e7;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    
+    &.primary {
+        color: #e7e7e7;
+        background-color: #008CBA;
+    }
+
+    &.secondary {
+        color: #e7e7e7;
+        background-color: #4CAF50;
+    }
+
+    &.danger {
+        color: #e7e7e7;
+        background-color: #f44336;
+    }
+
+    &.inverse {
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    &.rounded {
+        border-radius: 10px;
+    }
+
+    &.circular {border-radius: 20px;
+    }
+
+    &.xsmall {
+        padding: 2px;
+    }
+
+    &.small {
+        padding: 5px;
+    }
+
+    &.large {
+        padding: 12px;
+    }
+
+    &.xlarge {
+        padding: 15px;
+    }
+}

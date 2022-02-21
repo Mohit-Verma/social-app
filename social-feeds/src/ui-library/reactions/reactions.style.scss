@@ -1,0 +1,33 @@
+.ui-library-reactions {
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    flex-flow: row nowrap;
+
+    >span {
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    >.liked {
+        color: lightseagreen
+    }
+
+    >.celebrated {
+        color: lightgreen
+    }
+
+    >.supported {
+        color: plum
+    }
+
+    >.loved {
+        color: lightcoral
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ui-library-reactions {
+        font-size: x-small;
+    }
+}
