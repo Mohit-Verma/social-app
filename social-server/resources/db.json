@@ -1,0 +1,47 @@
+{
+    "users": [
+        {
+            "id": "user_1234",
+            "displayName": "Test User"
+        },
+        {
+            "id": "-5G505y",
+            "displayName": "Mohit"
+        }
+    ],
+    "feeds": [
+        {
+            "id": "feed_1",
+            "imageURL": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg",
+            "description": "Beautiful Sunset",
+            "userId": "-5G505y",
+            "reactions": {},
+            "comments": []
+        },
+        {
+            "id": "feed_2",
+            "imageURL": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "description": "Feather",
+            "userId": "user_1234",
+            "reactions": {},
+            "comments": []
+        },
+        {
+            "id": "feed_3",
+            "imageURL": "https://wallpaperaccess.com/full/7092222.jpg",
+            "description": "A Glass of Water",
+            "userId": "-5G505y",
+            "reactions": {},
+            "comments": []
+        },
+        {
+            "id": "feed_4",
+            "imageURL": "https://wallpaperaccess.com/full/7092236.jpg",
+            "description": "Imagination",
+            "userId": "user_1234",
+            "comments": [],
+            "reactions": {}
+        }
+    ],
+    "comments": []
+}
